@@ -1,5 +1,5 @@
 #!/bin/sh     
-ssh root@NODEJSDROPLETIP<<EOF
+ssh ubuntu@172.31.91.125<<EOF
  cd /var/www/html/
  git pull origin master      
  npm install --production      
